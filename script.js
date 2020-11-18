@@ -50,7 +50,7 @@ function toggleVideo() {
   video[method]();
 }
 function toggleButton() {
-  playIcon.src = video.paused ? "/image/play.svg" : "/image/pause.svg";
+  playIcon.src = video.paused ? "image/play.svg" : "image/pause.svg";
 }
 function handlerRange() {
   video[this.name] = this.value;
