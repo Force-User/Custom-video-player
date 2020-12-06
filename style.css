@@ -37,14 +37,17 @@
 }
 .time {
   color: #fff;
-  width: 50px;text-align: center;
+  width: 50px;
+  text-align: center;
 }
-.panel-start,.panel-end {
+.panel-start,
+.panel-end {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.panel-start>*:nth-child(n+2),.panel-end >*:nth-child(n+2) {
+.panel-start > *:nth-child(n + 2),
+.panel-end > *:nth-child(n + 2) {
   margin-left: 10px;
 }
 .player-filld {
