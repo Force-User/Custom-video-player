@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="player-area">
+    <div class="player">
+      <video src="video/Mass Effect Legendary Edition Teaser Trailer.mp4"  class="player__video"></video>
+      <div class="player-panel">
+        <div class="player-filld">
+          <div class="player-filld__progress"></div>
+        </div>
+        <div class="player-control">
+        <div class="panel-start">
+          
+          <button class="player-control__button player-control__button--toggle">
+            <img class="player-control__play" src="image/play.svg" alt="">
+          </button>
+          <div class="time">00:00</div>
+          <div class="player-volume">
+            <img src="image/Volume.svg" alt="">
+            <input class="player-volume__range" type="range" name="volume"  min="0" max="1" step="0.05" >
+          </div>
+          <div class="player-skip">
+            <button class="player-control__button player-skip__button" data-skip="-5">«</button>
+            <button class="player-control__button player-skip__button" data-skip="5">»</button>
+          </div>
+        </div>
+        <div class="panel-end">
+          <div class="player-speed">
+          <button class="speed-select">
+            Normal
+          </button>
+            <div class="speed-options">
+              <button class="player-control__button speed-options__option" data-speed="0.50">0.50</button>
+              <button class="player-control__button speed-options__option" data-speed="0.75">0.75</button>
+              <button class="player-control__button speed-options__option" data-speed="1">Normal</button>
+              <button class="player-control__button speed-options__option" data-speed="1.25">1.25</button>
+              <button class="player-control__button speed-options__option" data-speed="1.5">1.5</button>
+            </div>
+          
+        </div>
+        <button class="player-control__button fullscreen"><img src="image/Full Screen.svg" alt=""></button></div>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
